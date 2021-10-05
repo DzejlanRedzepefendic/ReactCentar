@@ -1,19 +1,53 @@
-.text {
-  font-size: 35px;
-}
-
-.App {
-  height: 100vh;
-  width: 100vw;
+.first-part {
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-/* .btn {
-  margin-left: 50%;
-  width: 150px;
-  height: 50px;
-  background-color: blue;
-} */
+.second-part {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.slike {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  opacity: 90%;
+  background-color: rgb(120, 28, 206);
+}
+.a,
+.b,
+.c,
+.d,
+.e,
+.f {
+  width: 500px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 0.5rem;
+  border: 0.5px gray dotted;
+}
+
+.bu {
+  width: 100vw;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.btn {
+  width: 15%;
+  height: 59px;
+  color: White;
+  font-size: 20px;
+  letter-spacing: 2px;
+  background-color: rgb(120, 28, 206);
+}
+
+.btn:hover {
+  background-color: rgb(92, 23, 156);
+}
