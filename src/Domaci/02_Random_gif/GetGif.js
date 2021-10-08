@@ -10,7 +10,7 @@ const GetGif = () => {
     url: 'https://api.giphy.com/v1/gifs/trending?limit=100',
     params: { api_key: '' },
   }
-  const getRandomGif = () => {
+  const getRandomGif = async () => {
     axios
       .request(options)
       .then((response) => {
@@ -22,12 +22,10 @@ const GetGif = () => {
       })
   }
   useEffect(() => {
-    setInterval(() => {
+    const id = setInterval(() => {
       getRandomGif()
     }, 3000)
-    return clearInterval(() => {
-      getRandomGif()
-    }, 3000)
+    return () => clearInterval(id)
   })
   return (
     <div className='slika'>
@@ -35,5 +33,4 @@ const GetGif = () => {
     </div>
   )
 }
-
 export default GetGif
