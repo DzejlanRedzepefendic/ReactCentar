@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.forme {
+  width: 500px;
+}
+form > * {
+  margin-bottom: 5%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+}
+.errori {
+  width: 500px;
+}
+.errori > h4 {
+  font-size: 30px;
+  color: red;
+}
