@@ -1,7 +1,6 @@
 import React from 'react'
 
 function ChangeMe(props) {
-  console.log(props.isDark)
   return (
     <>
       <div
