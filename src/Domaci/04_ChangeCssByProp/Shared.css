@@ -1,0 +1,12 @@
+.containerDark {
+  background-color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.new {
+  background-color: green;
+  color: red;
+}
