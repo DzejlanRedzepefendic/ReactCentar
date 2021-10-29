@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { AppContext } from '../../App'
+import { AppContext } from './Context'
 import { setThemeToLocalStorage } from './util'
 import './simple.css'
 function Simple() {

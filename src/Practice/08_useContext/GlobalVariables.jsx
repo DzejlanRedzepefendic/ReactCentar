@@ -1,4 +1,4 @@
-import { AppContext } from '../../App'
+import { AppContext } from './Context'
 import React from 'react'
 
 function GlobalVariables(props) {
