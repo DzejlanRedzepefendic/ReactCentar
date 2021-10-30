@@ -1,0 +1,9 @@
+.blaBla {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.blaBla > p {
+  width: 20%;
+}
